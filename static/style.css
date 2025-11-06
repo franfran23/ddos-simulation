@@ -1,0 +1,12 @@
+body {
+	font-size: 28px;
+}
+
+#mainContainer {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+#mainContainer * {
+	margin: 0 auto;
+}

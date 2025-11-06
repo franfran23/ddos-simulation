@@ -1,0 +1,7 @@
+body {
+	background-color: green;
+	color: black;
+}
+a:visited {
+	color: darkgray;
+}

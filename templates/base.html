@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Super site génial</title>
+  <link rel="stylesheet" href="/static/style.css">
+  {% block head %}
+  {% endblock %}
+</head>
+
+<body>
+  <h1 id="title">Super site génial</h1>
+
+  <div id="mainContainer">
+    {% block body %}
+    {% endblock %}
+  </div>
+
+</body>
+
+</html>
